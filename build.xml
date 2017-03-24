@@ -5,7 +5,7 @@
     <target name="validate">
         <sf:deploy
 	    username="${env.username}"
-	    password="${env.password}"
+	    password="${env.password}${env.token}"
             serverurl="https://login.salesforce.com"
             deployroot="src"
             checkonly="true"
