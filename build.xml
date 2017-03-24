@@ -8,7 +8,7 @@
 	    password="${env.password}${env.token}"
             serverurl="https://login.salesforce.com"
             deployroot="src"
-            checkonly="true"
+            checkonly="false"
             rollbackonerror="true"/>
     </target>
 
