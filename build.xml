@@ -1,0 +1,13 @@
+<project name="sfdctest" default="validate" basedir="." xmlns:sf="antlib:com.salesforce">
+
+    <target name="validate">
+        <sf:deploy
+            username="andrewsones+git@brightgen.com"
+            password="Oranges1999pNMIIDp28SmYuTgyNdNw2Y4O5"
+            serverurl="https://login.salesforce.com"
+            deployroot="src"
+            checkonly="true"
+            rollbackonerror="true"/>
+    </target>
+
+</project>
