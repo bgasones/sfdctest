@@ -4,4 +4,5 @@
         <members>ads_DoNothing</members>
         <name>ApexClass</name>
     </types>
+    <version>39.0</version>
 </Package>
