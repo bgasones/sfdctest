@@ -1,5 +1,9 @@
 <project name="sfdctest" default="validate" basedir="." xmlns:sf="antlib:com.salesforce">
 
+    <path id="build.path">
+        <pathelement location="lib/ant-salesforce.jar"/>
+    </path>
+
     <target name="validate">
         <sf:deploy
             username="andrewsones+git@brightgen.com"
